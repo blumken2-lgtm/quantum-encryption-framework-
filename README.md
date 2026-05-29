@@ -24,6 +24,12 @@ This project is a conceptual framework designed to enhance quantum encryption al
 This project is licensed under the **Apache License 2.0**. Users may freely use, modify, and distribute the code. For more details, see the full license in the [LICENSE](LICENSE) file.
 
 ---
+
+### Disclaimer
+This project is intended for **educational purposes only**. It is not designed or tested for production use in real-world quantum encryption scenarios.
+
+---
+
 ### Example Skeleton Implementation
 ```python
 # monitoring.py
