@@ -19,6 +19,11 @@ This project is a conceptual framework designed to enhance quantum encryption al
 5. **Deflection Mechanism:**
    - Provides time to counteract the attack while logging relevant information.
 
+### Licensing
+
+This project is licensed under the **Apache License 2.0**. Users may freely use, modify, and distribute the code. For more details, see the full license in the [LICENSE](LICENSE) file.
+
+---
 ### Example Skeleton Implementation
 ```python
 # monitoring.py
@@ -33,12 +38,3 @@ def monitor_activity():
 if __name__ == "__main__":
     monitor_activity()
 ```
-
-### How It Works
-- The framework wraps around existing quantum encryption algorithms.
-- Attack attempts are recorded and alerts are triggered immediately.
-- During the delay provided by the quantum algorithm, teams can analyze and deflect the attack.
-
----
-
-This skeleton concept is subject to further development and iteration.
