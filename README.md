@@ -1,5 +1,14 @@
 # Quantum Encryption Framework
 
+## **Disclaimer**
+This repository is an **experimental learning project** and is **not intended for real-world or production use**. The purpose of this project is to explore theoretical and experimental concepts related to quantum encryption, monitoring, and intrusion detection. 
+
+### **Important Note**
+- This framework should **not** be used in systems requiring actual security implementations.
+- No warranties are provided for accuracy, reliability, or functionality.
+- Improper use of this experimental code in critical systems could result in vulnerabilities.
+- The maintainers of this repository assume **no liability** for any misuse.
+
 ## Overview
 This repository implements advanced quantum encryption methods to secure communications. It integrates modern quantum key distribution protocols with robust intrusion detection mechanisms.
 
