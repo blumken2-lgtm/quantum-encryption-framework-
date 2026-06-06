@@ -1,46 +1,38 @@
-# Quantum Encryption Wraparound Framework
+# Quantum Encryption Framework
 
-This project is a conceptual framework designed to enhance quantum encryption algorithms. It introduces a monitoring, alerting, and logging system around quantum encryption processes, aimed at detecting and responding to attack attempts.
+## Overview
+This repository implements advanced quantum encryption methods to secure communications. It integrates modern quantum key distribution protocols with robust intrusion detection mechanisms.
 
-### Key Components
+### Recent Update: Aperiodic Tiling-Based Key Generation
+We’ve recently added support for **aperiodic tiling-based key generation**. Inspired by non-repeating geometric patterns (such as Penrose tiling), this new system ensures:
+- Highly complex, non-repetitive cryptographic key generation.
+- Improved resilience to brute force and entropy-based attacks.
 
-1. **Algorithm Mirroring and Delaying:**
-   - Integrates with quantum encryption algorithms to delay quantum computational attacks.
+### Key Features
+- **Quantum Key Distribution (QKD)**: Utilizes quantum mechanics principles for secure communication.
+- **Intrusion Detection System (IDS)**: Monitors quantum protocol anomalies and breaches.
+- **Aperiodic Tiling Keys**: Adds randomness based on non-linear geometric patterns.
 
-2. **Monitoring Module:**
-   - Observes activity and identifies any manipulation or entry attempts.
+### How It Works
+1. **Key Generation**:
+   - Tiling-based key generator uses geometric sequences to derive unique keys.
+   - Non-repeating attributes make these keys computationally expensive to reproduce.
 
-3. **Alerting System:**
-   - Sends real-time alerts of detected attacks via customizable channels.
+2. **Detection**:
+   - Intrusion detection validates key entropy.
+   - Malformed patterns raise anomalies.
 
-4. **Recorder/Logger:**
-   - Logs attack timestamps, behavior patterns, and metadata for analysis.
+### Get Started
+#### Running the System
+1. Clone this repository to your local machine.
+2. Install dependencies if any (e.g., Python libraries).
+3. Run the key generation module:
+   ```bash
+   python aperiodic_tile_keygen.py
+   ```
 
-5. **Deflection Mechanism:**
-   - Provides time to counteract the attack while logging relevant information.
+### Contribution Guidelines
+We welcome new features, bug fixes, and documentation updates. Please ensure all contributions adhere to the repository’s coding standards.
 
-### Licensing
-
-This project is licensed under the **Apache License 2.0**. Users may freely use, modify, and distribute the code. For more details, see the full license in the [LICENSE](LICENSE) file.
-
----
-
-### Disclaimer
-This project is intended for **educational purposes only**. It is not designed or tested for production use in real-world quantum encryption scenarios.
-
----
-
-### Example Skeleton Implementation
-```python
-# monitoring.py
-import time
-
-def monitor_activity():
-    while True:
-        # Placeholder: Detect anomalies in quantum activity
-        print("Monitoring for attacks...")
-        time.sleep(5)
-
-if __name__ == "__main__":
-    monitor_activity()
-```
+### Contact
+For inquiries, collaboration, or support, please open an issue or contact the maintainers.
