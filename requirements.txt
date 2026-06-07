@@ -1,0 +1,78 @@
+# ============================================================================
+# Quantum Encryption Framework - Python Dependencies
+# ============================================================================
+# Project: Advanced Quantum Encryption & Intrusion Detection System
+# Python Version: 3.9+
+# Last Updated: June 7, 2026
+# ============================================================================
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+
+# Cryptography Libraries
+cryptography==42.0.8                  # Modern cryptography for encryption primitives
+pycryptodome==3.20.0                  # Extended cryptographic toolkit
+
+# Quantum Computing & Simulation
+qiskit==0.45.3                        # IBM Quantum Framework for quantum computing
+qiskit-aer==0.13.3                    # Aer quantum simulator
+numpy==1.24.3                         # Numerical computing & matrix operations
+
+# Scientific Computing
+scipy==1.12.0                         # Scientific computing utilities
+sympy==1.12                           # Symbolic mathematics for quantum calculations
+
+# ============================================================================
+# MONITORING & INTRUSION DETECTION
+# ============================================================================
+
+# Logging & Monitoring
+python-dotenv==1.0.1                  # Environment variable management
+python-json-logger==2.0.7             # Structured JSON logging
+
+# Time Series & Anomaly Detection
+pandas==2.1.4                         # Data manipulation and analysis
+scikit-learn==1.4.1                   # Machine learning for IDS
+
+# ============================================================================
+# NETWORK & COMMUNICATION
+# ============================================================================
+
+# Network Protocols
+requests==2.31.0                      # HTTP client library
+websocket-client==1.7.0               # WebSocket support for real-time monitoring
+
+# ============================================================================
+# DEVELOPMENT & TESTING DEPENDENCIES
+# ============================================================================
+
+# Testing Frameworks
+pytest==7.4.4                         # Unit testing framework
+pytest-cov==4.1.0                     # Code coverage for pytest
+mock==5.1.0                           # Mocking library for tests
+
+# Code Quality & Linting
+black==24.1.1                         # Code formatter
+flake8==7.0.0                         # Style guide enforcement
+pylint==3.0.3                         # Code analysis tool
+mypy==1.7.1                           # Static type checking
+
+# Documentation
+sphinx==7.2.6                         # Documentation generator
+sphinx-rtd-theme==2.0.0               # ReadTheDocs theme for documentation
+
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+
+# Installation Notes:
+# 1. Create virtual environment: python -m venv venv
+# 2. Activate environment:
+#    - macOS/Linux: source venv/bin/activate
+#    - Windows: venv\Scripts\activate
+# 3. Install dependencies: pip install -r requirements.txt
+#
+# Python Version Requirements: 3.9 or higher
+# Supported OS: macOS, Linux, Windows (with WSL2 recommended)
+# ============================================================================
