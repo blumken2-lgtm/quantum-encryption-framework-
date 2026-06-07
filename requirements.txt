@@ -1,78 +1,104 @@
 # ============================================================================
-# Quantum Encryption Framework - Python Dependencies
+# Quantum Encryption Framework - Theoretical Learning Dependencies
 # ============================================================================
-# Project: Advanced Quantum Encryption & Intrusion Detection System
-# Python Version: 3.9+
-# Last Updated: June 7, 2026
+# 
+# DISCLAIMER: EXPERIMENTAL & EDUCATIONAL PURPOSE ONLY
 # ============================================================================
-
-# ============================================================================
-# CORE DEPENDENCIES
-# ============================================================================
-
-# Cryptography Libraries
-cryptography==42.0.8                  # Modern cryptography for encryption primitives
-pycryptodome==3.20.0                  # Extended cryptographic toolkit
-
-# Quantum Computing & Simulation
-qiskit==0.45.3                        # IBM Quantum Framework for quantum computing
-qiskit-aer==0.13.3                    # Aer quantum simulator
-numpy==1.24.3                         # Numerical computing & matrix operations
-
-# Scientific Computing
-scipy==1.12.0                         # Scientific computing utilities
-sympy==1.12                           # Symbolic mathematics for quantum calculations
-
-# ============================================================================
-# MONITORING & INTRUSION DETECTION
-# ============================================================================
-
-# Logging & Monitoring
-python-dotenv==1.0.1                  # Environment variable management
-python-json-logger==2.0.7             # Structured JSON logging
-
-# Time Series & Anomaly Detection
-pandas==2.1.4                         # Data manipulation and analysis
-scikit-learn==1.4.1                   # Machine learning for IDS
-
-# ============================================================================
-# NETWORK & COMMUNICATION
-# ============================================================================
-
-# Network Protocols
-requests==2.31.0                      # HTTP client library
-websocket-client==1.7.0               # WebSocket support for real-time monitoring
-
-# ============================================================================
-# DEVELOPMENT & TESTING DEPENDENCIES
-# ============================================================================
-
-# Testing Frameworks
-pytest==7.4.4                         # Unit testing framework
-pytest-cov==4.1.0                     # Code coverage for pytest
-mock==5.1.0                           # Mocking library for tests
-
-# Code Quality & Linting
-black==24.1.1                         # Code formatter
-flake8==7.0.0                         # Style guide enforcement
-pylint==3.0.3                         # Code analysis tool
-mypy==1.7.1                           # Static type checking
-
-# Documentation
-sphinx==7.2.6                         # Documentation generator
-sphinx-rtd-theme==2.0.0               # ReadTheDocs theme for documentation
-
-# ============================================================================
-# CONFIGURATION
-# ============================================================================
-
-# Installation Notes:
-# 1. Create virtual environment: python -m venv venv
-# 2. Activate environment:
-#    - macOS/Linux: source venv/bin/activate
-#    - Windows: venv\Scripts\activate
-# 3. Install dependencies: pip install -r requirements.txt
+# This is a theoretical exploration and learning project for understanding
+# quantum cryptography concepts, NOT intended for production use.
 #
-# Python Version Requirements: 3.9 or higher
-# Supported OS: macOS, Linux, Windows (with WSL2 recommended)
+# Purpose:
+# - Explore quantum key distribution (QKD) theory
+# - Experiment with aperiodic tiling-based key generation concepts
+# - Practice intrusion detection system (IDS) design principles
+# - Learn cryptographic algorithms and their vulnerabilities
+#
+# Python Version: 3.9+ (flexible, for learning purposes)
+# Status: Work-in-progress experimental codebase
+# ============================================================================
+
+# ============================================================================
+# CORE EXPERIMENTAL DEPENDENCIES
+# ============================================================================
+
+# Quantum Computing Simulation & Theory
+qiskit==0.45.3                        # IBM Quantum Framework - for theoretical QKD exploration
+qiskit-aer==0.13.3                    # Quantum simulator - to test quantum protocols
+
+# Cryptography Concepts (Educational)
+cryptography==42.0.8                  # Modern cryptography library - understand primitives
+pycryptodome==3.20.0                  # Extended crypto toolkit - experimental algorithms
+
+# Scientific & Mathematical Foundation
+numpy==1.24.3                         # Linear algebra for quantum state representations
+scipy==1.12.0                         # Scientific computing for mathematical exploration
+sympy==1.12                           # Symbolic math - theoretical calculations
+
+# ============================================================================
+# EXPLORATION & PROTOTYPING
+# ============================================================================
+
+# Data Analysis & Pattern Exploration
+pandas==2.1.4                         # Analyze key distributions and patterns
+matplotlib==3.8.3                     # Visualize quantum states and key generation
+seaborn==0.13.0                       # Statistical visualization for analysis
+
+# Machine Learning (For IDS Concept Testing)
+scikit-learn==1.4.1                   # Practice ML-based anomaly detection concepts
+
+# ============================================================================
+# DEVELOPMENT & LEARNING TOOLS
+# ============================================================================
+
+# Testing & Validation
+pytest==7.4.4                         # Test theoretical implementations
+pytest-cov==4.1.0                     # Coverage reporting for experiments
+
+# Code Quality (Optional, for learning best practices)
+black==24.1.1                         # Code formatting
+flake8==7.0.0                         # Style guidelines
+pylint==3.0.3                         # Code analysis
+
+# Interactive Development
+jupyter==1.0.0                        # Jupyter notebooks for experimental exploration
+notebook==7.0.6                       # Interactive computing environment
+
+# ============================================================================
+# UTILITIES
+# ============================================================================
+
+python-dotenv==1.0.1                  # Environment variable management
+requests==2.31.0                      # HTTP requests for future API exploration
+
+# ============================================================================
+# NOTES & ASSUMPTIONS
+# ============================================================================
+#
+# Installation:
+# 1. python -m venv venv
+# 2. source venv/bin/activate  (macOS/Linux) OR venv\Scripts\activate (Windows)
+# 3. pip install -r requirements.txt
+#
+# Usage:
+# - Use Jupyter notebooks (.ipynb) for exploratory experiments
+# - Run individual scripts in src/ for specific concept testing
+# - Refer to documentation for theoretical background
+#
+# What This IS:
+# ✓ Educational exploration of quantum cryptography
+# ✓ Theoretical algorithm prototyping
+# ✓ Learning resource for cryptographic concepts
+# ✓ Experimental playground for ideas
+#
+# What This IS NOT:
+# ✗ Production-ready encryption system
+# ✗ Suitable for protecting real data
+# ✗ Peer-reviewed security implementation
+# ✗ Cryptographically vetted or audited
+# ✗ For commercial or critical use
+#
+# ============================================================================
+# Python Version: 3.9+ (no strict requirements - for learning flexibility)
+# Maintenance: Ongoing experimental updates
+# Status: Theoretical & Educational Only
 # ============================================================================
