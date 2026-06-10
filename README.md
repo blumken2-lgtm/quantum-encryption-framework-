@@ -1,7 +1,7 @@
 # Quantum Encryption Framework
 
 ## **Disclaimer**
-This repository is an **experimental learning project** and is **not intended for real-world or production use**. The purpose of this project is to explore theoretical and experimental concepts related to quantum encryption, monitoring, and intrusion detection. 
+This repository is an **experimental learning project** and is **not intended for real-world or production use**. The purpose of this project is to explore theoretical and experimental concepts rel...
 
 ### **Important Note**
 - This framework should **not** be used in systems requiring actual security implementations.
@@ -17,30 +17,27 @@ We’ve recently added support for **aperiodic tiling-based key generation**. In
 - Highly complex, non-repetitive cryptographic key generation.
 - Improved resilience to brute force and entropy-based attacks.
 
-### Key Features
-- **Quantum Key Distribution (QKD)**: Utilizes quantum mechanics principles for secure communication.
-- **Intrusion Detection System (IDS)**: Monitors quantum protocol anomalies and breaches.
-- **Aperiodic Tiling Keys**: Adds randomness based on non-linear geometric patterns.
+## Detailed Explanation
 
-### How It Works
-1. **Key Generation**:
-   - Tiling-based key generator uses geometric sequences to derive unique keys.
-   - Non-repeating attributes make these keys computationally expensive to reproduce.
+### The Theory: Encryption through Geometrical Constraints
+This framework draws inspiration from the Gertsenshtein effect—a concept in physics where external structures force fundamental changes in wave behavior. Here, you replicate this logic using mathematical geometry, the aperiodic tiling of the hat, to create a secure quantum-resistant encryption mechanism.
 
-2. **Detection**:
-   - Intrusion detection validates key entropy.
-   - Malformed patterns raise anomalies.
+#### 1. Structural Boundary Concept: The Hat Geometry
+In the Gertsenshtein effect, a photon's transformation into a gravitational wave relies on a strict, external geometric constraint—a magnetic field chamber. Similarly, this encryption framework employs the "hat" tile geometry as a boundary condition that enforces unique behavior in data transmission processes. The aperiodic, non-repeating nature of the hat tile ensures that no data interaction will follow the same path or repeat patterns, making it computationally secure against predictive attacks.
 
-### Get Started
-#### Running the System
-1. Clone this repository to your local machine.
-2. Install dependencies if any (e.g., Python libraries).
-3. Run the key generation module:
-   ```bash
-   python aperiodic_tile_keygen.py
-   ```
+#### 2. Replay Attack Prevention
+Using the mathematical properties of the aperiodic hat geometry, this approach effectively minimizes replay or duplication risks—a core threat in the quantum computing era. The non-repetitive pattern guarantees that handshakes or cryptographic processes generated in one state cannot be replicated or guessed in another.
 
-### Contribution Guidelines
+#### 3. Intrusion Detection via Geometry Disruption
+The wrapper’s aperiodic structure acts as a filter, similar to how the reverse Gertsenshtein effect interprets gravitational waves as signals. Any foreign or malicious attempts to disrupt the network stream will cause disturbances in the geometric balance. These disturbances trigger alerts and provide telemetry insights, enabling the identification and blocking of intrusion.
+
+### Practical Impact
+This innovative approach marries physics-inspired security principles with cutting-edge geometric mathematics. By enforcing strict, non-replicable structural conditions, this framework ensures:
+- Unprecedented resilience against quantum-era threats.
+- Real-time detection of advanced network anomalies.
+- A robust platform for secure communications in experimental or learning setups.
+
+## Contribution Guidelines
 We welcome new features, bug fixes, and documentation updates. Please ensure all contributions adhere to the repository’s coding standards.
 
 ### Contact
